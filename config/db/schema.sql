@@ -1,6 +1,6 @@
 ### Schema
-CREATE DATABASE pets_db;
-USE pets_db;
+CREATE DATABASE foods_db;
+USE foods_db;
 
 CREATE TABLE buyers
 (
@@ -9,13 +9,13 @@ CREATE TABLE buyers
 	PRIMARY KEY (id)
 );
 
-CREATE TABLE pets
+CREATE TABLE foods
 (
-	id int NOT NULL AUTO_INCREMENT,
-	animal_breed varchar(255) NOT NULL,
-	animal_name varchar(255) NOT NULL,
-	price int NOT NULL,
-	buyer_id int NOT NULL,
-	PRIMARY KEY (id),
-	FOREIGN KEY (buyer_id) REFERENCES buyers(id)
+	-- id int NOT NULL AUTO_INCREMENT,
+	-- animal_breed varchar(255) NOT NULL,
+	-- animal_name varchar(255) NOT NULL,
+	-- price int NOT NULL,
+	-- buyer_id int NOT NULL,
+	-- PRIMARY KEY (id),
+	-- FOREIGN KEY (buyer_id) REFERENCES buyers(id)
 );
