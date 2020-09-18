@@ -1,0 +1,24 @@
+{
+  "name": "eat-da-burger",
+  "version": "1.0.0",
+  "description": "placeholder\r ## Description\r ## Installation\r ## Usage\r ## Credits\r Borrowed starting code from the CatApp.\r ## License",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmhunt1/Eat-Da-Burger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmhunt1/Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/wmhunt1/Eat-Da-Burger#readme",
+  "dependencies": {
+    "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {}
+}
